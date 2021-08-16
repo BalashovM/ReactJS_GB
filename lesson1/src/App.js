@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div>Hello, people!</div>
-      <button onClick={(e) => setInputText("Let’s code to ReactJS!")}>Press the button</button>
+      <button onClick={(e) => setInputText("Let’s code to ReactJS!!!")}>Press the button</button>
       <Message textToShow={inputText}/>
     </div>
   );
